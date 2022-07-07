@@ -3,7 +3,7 @@ package sfg1.sfg1.di.services;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Component;
 
-@Profile("EN")
+@Profile({"EN","default"})
 @Component("i18nService")
 public class i18nEnglishGreetingService implements GreetingService{
 
